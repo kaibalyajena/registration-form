@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #4070f4;
+    background: url("render1.png");
 }
 .container{
     position: relative;
@@ -36,7 +36,7 @@ body{
     height: 3px;
     width: 27px;
     border-radius: 8px;
-    background-color: #4070f4;
+    background-color: rgb(100, 12, 100);
 }
 .container form{
     position: relative;
@@ -109,16 +109,13 @@ form .fields .input-field{
     color: #fff;
     border-radius: 5px;
     margin: 25px 0;
-    background-color: #4070f4;
+    background-color: rgb(121, 27, 121);
     transition: all 0.3s linear;
     cursor: pointer;
 }
 .container form .btnText{
     font-size: 14px;
     font-weight: 400;
-}
-form button:hover{
-    background-color: #265df2;
 }
 
 @media (max-width: 750px) {
